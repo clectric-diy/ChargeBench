@@ -5,7 +5,7 @@
 	(uuid "86b7bfb3-ead2-48b6-9db9-95dd9025240e")
 	(paper "A4")
 	(title_block
-		(title "ChargeForge LED_RGB")
+		(title "Charge LED_RGB")
 		(date "2026-02-20")
 		(rev "Mk 0.1")
 		(company "clectric.diy")
@@ -13,113 +13,6 @@
 		(comment 2 "Charles H. Leggett")
 	)
 	(lib_symbols
-		(symbol "CR0603-FX-1001ELF_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CR0603-FX-1001ELF"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "clectric-diy:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_BOURNS-CR0603-FX-1001ELF_C203217.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C203217"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CR0603-FX-1001ELF_1_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -365,220 +258,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "clectric-diy:CR0603-FX-1001ELF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CR0603-FX-1001ELF"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "clectric-diy:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_BOURNS-CR0603-FX-1001ELF_C203217.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C203217"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CR0603-FX-1001ELF_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "clectric-diy:E6C1206RGBC3UDA"
 			(pin_numbers
 				(hide yes)
@@ -790,37 +469,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDREF"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "clectric-diy:FRC0603F1001TS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDREF"
-				(at 0 -3.81 0)
+			(property "Reference" "R"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Value" "FRC0603F1001TS"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "clectric-diy:R0603"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -837,7 +507,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -846,8 +516,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
+			(property "LCSC Part" "C2907002"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -855,61 +525,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDREF_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
+			(symbol "FRC0603F1001TS_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDREF_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -924,15 +555,27 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 82.55 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae34388f-d1e7-40d3-85a2-071b6d49ce06")
 	)
 	(wire
 		(pts
@@ -1054,16 +697,6 @@
 		)
 		(uuid "ead39028-1f5e-408c-bf88-e952b0543cd1")
 	)
-	(wire
-		(pts
-			(xy 86.36 111.76) (xy 82.55 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc32e58d-b782-4056-b380-c569a6dd1817")
-	)
 	(label "LED_GREEN"
 		(at 85.09 87.63 180)
 		(effects
@@ -1182,28 +815,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 86.36 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c4ce5d0-0820-45d2-8ae3-c8b9dbe20b8d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.2157 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_BLUE"
 		(shape input)
 		(at 114.3 111.76 0)
@@ -1293,197 +904,32 @@
 		)
 	)
 	(symbol
-		(lib_id "clectric-diy:CR0603-FX-1001ELF")
+		(lib_id "clectric-diy:FRC0603F1001TS")
 		(at 69.85 82.55 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "206d3cd0-1e60-4541-9582-89b67e840d81")
-		(property "Reference" "R1"
-			(at 69.85 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CR0603-FX-1001ELF"
-			(at 69.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "clectric-diy:R0603"
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_BOURNS-CR0603-FX-1001ELF_C203217.html"
-			(at 69.85 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C203217"
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06c0c3d3-a399-4152-b3ea-750334a085ee")
-		)
-		(pin "1"
-			(uuid "b414140b-f97e-4ae4-9371-4149928ffa69")
-		)
-		(instances
-			(project "LED_RGB"
-				(path "/86b7bfb3-ead2-48b6-9db9-95dd9025240e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 82.55 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f03eb0f-36d5-4b84-a0d5-a41ca427f367")
-		(property "Reference" "#PWR01"
-			(at 82.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 82.55 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "985f1618-da56-44d8-a930-b2ae298a70a4")
-		)
-		(instances
-			(project ""
-				(path "/86b7bfb3-ead2-48b6-9db9-95dd9025240e"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CR0603-FX-1001ELF_1")
-		(lib_id "clectric-diy:CR0603-FX-1001ELF")
-		(at 69.85 90.17 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f4fe619-03c1-479a-8df2-c753d943d506")
-		(property "Reference" "R2"
-			(at 69.85 92.202 0)
+		(uuid "034a6345-705f-405a-85d7-19e8436bed05")
+		(property "Reference" "R1"
+			(at 69.85 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CR0603-FX-1001ELF"
-			(at 69.85 93.98 0)
+		(property "Value" "FRC0603F1001TS"
+			(at 69.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "clectric-diy:R0603"
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_BOURNS-CR0603-FX-1001ELF_C203217.html"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -1492,8 +938,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C203217"
-			(at 69.85 77.47 0)
+		(property "Datasheet" ""
+			(at 69.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,16 +947,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ce0f95b0-76ec-4cdc-ae42-b498870fd8d1")
+		(property "Description" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907002"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "16a2a11b-14a3-45d2-a14c-ea0ccb19c801")
+			(uuid "9fe7bf12-c105-4fd9-b11e-886d438cf3db")
+		)
+		(pin "2"
+			(uuid "892be5b3-8532-4f3e-93b7-bf390a63ff8a")
 		)
 		(instances
-			(project "LED_RGB"
+			(project ""
 				(path "/86b7bfb3-ead2-48b6-9db9-95dd9025240e"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1535,7 +999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "HDR-TH_4P-P2.54-V-M"
 			(at 109.855 104.14 0)
 			(effects
 				(font
@@ -1587,6 +1051,83 @@
 			(project ""
 				(path "/86b7bfb3-ead2-48b6-9db9-95dd9025240e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "clectric-diy:FRC0603F1001TS")
+		(at 123.19 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fb6fe18-5fc7-46b6-91b5-b9e12cfc4cb8")
+		(property "Reference" "R3"
+			(at 123.19 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FRC0603F1001TS"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "clectric-diy:R0603"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907002"
+			(at 123.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fe7bf12-c105-4fd9-b11e-886d438cf3db")
+		)
+		(pin "2"
+			(uuid "892be5b3-8532-4f3e-93b7-bf390a63ff8a")
+		)
+		(instances
+			(project ""
+				(path "/86b7bfb3-ead2-48b6-9db9-95dd9025240e"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1738,25 +1279,24 @@
 		)
 	)
 	(symbol
-		(lib_id "clectric-diy:CR0603-FX-1001ELF")
-		(at 123.19 85.09 0)
-		(mirror x)
+		(lib_id "clectric-diy:FRC0603F1001TS")
+		(at 69.85 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "856a299a-4657-41a9-a918-278e14102a66")
-		(property "Reference" "R3"
-			(at 123.19 87.122 0)
+		(uuid "c05e4336-1099-4c56-84af-93b8e23d298b")
+		(property "Reference" "R2"
+			(at 69.85 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CR0603-FX-1001ELF"
-			(at 123.19 88.9 0)
+		(property "Value" "FRC0603F1001TS"
+			(at 69.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1305,7 @@
 			)
 		)
 		(property "Footprint" "clectric-diy:R0603"
-			(at 123.19 77.47 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,8 +1313,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_BOURNS-CR0603-FX-1001ELF_C203217.html"
-			(at 123.19 74.93 0)
+		(property "Datasheet" ""
+			(at 69.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 85.09 0)
+			(at 69.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,92 +1331,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C203217"
-			(at 123.19 72.39 0)
+		(property "LCSC Part" "C2907002"
+			(at 69.85 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "9fe7bf12-c105-4fd9-b11e-886d438cf3db")
 		)
 		(pin "2"
-			(uuid "00e4d929-3aeb-494f-8a16-160129bf26d7")
-		)
-		(pin "1"
-			(uuid "e8613342-26c5-4f9b-90dd-37b618ea048d")
-		)
-		(instances
-			(project "LED_RGB"
-				(path "/86b7bfb3-ead2-48b6-9db9-95dd9025240e"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcad094f-1c73-4d3f-a4d2-50e419099cb5")
-		(property "Reference" "TP1"
-			(at 85.09 107.1879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 78.232 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 87.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68bb2f7d-790d-4dd8-91bf-11191fad9bbd")
+			(uuid "892be5b3-8532-4f3e-93b7-bf390a63ff8a")
 		)
 		(instances
 			(project ""
 				(path "/86b7bfb3-ead2-48b6-9db9-95dd9025240e"
-					(reference "TP1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
